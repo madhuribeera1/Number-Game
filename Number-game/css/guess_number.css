@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(2deg, orange ,pink,skyblue, transparent);
+    padding: 40px;
+}
+   
+
+.guess{
+    color: blue;
+}
+
+.icon{
+    font-size: 4rem;
+    display: inline-block;
+    padding: 0 1.5rem 0 1.5rem;
+    border-radius: 11px;
+    background-color:grey;
+    margin-top: 1rem;
+}
+.block{
+    margin-top: 4rem;
+   
+    /* margin-left: 3rem; */
+    
+}
+.num{
+    width: 42px;
+    height: 41px;
+}
+.clue_box{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 10px 2px grey;
+    margin-left: 6rem;
+    position: absolute;
+    top: 111px;
+}
+.text{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.submit{
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 5rem;
+    border-radius: 4rem;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.sheet{
+    position: absolute;
+    left: 70rem;
+    top: 4rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 0 4px 2px 4px;
+    padding: 0.5rem;
+    background-color: darkseagreen;
+}
+.number{
+ font-weight: 700;
+ font-size: 3rem;
+ margin-top: 2rem;
+}
+.cheat-image{
+    width: 25%;
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+    display: none;
+   
+}
+
+.balloon{
+    width: 15%;
+    position: absolute;
+    top: 10rem;
+    left: 55rem;
+    display: none;
+}
